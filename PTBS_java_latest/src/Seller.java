@@ -1,10 +1,14 @@
 public class Seller extends Person {
 
-	public void showMenu() {
+    public Seller(String s, String s1) {
+        super(s, s1);
+    }
+
+    public void showMenu() {
 
 	}
 
-	public ProductMenu CreateProductMenu() {
+	public Object CreateProductMenu() {
 		return null;
 	}
 

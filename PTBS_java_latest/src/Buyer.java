@@ -1,10 +1,20 @@
 public class Buyer extends Person {
 
-	public void showMenu() {
+
+	public Buyer(String uname, String pwd)
+	{
+		this.uname = uname;
+		this.pwd = pwd;
+	}
+
+    public void showMenu() {
 
 	}
 
-	public ProductMenu CreateProductMenu() {
+	public Object CreateProductMenu() {
+
+
+
 		return null;
 	}
 

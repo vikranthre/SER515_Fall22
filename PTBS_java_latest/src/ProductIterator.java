@@ -1,6 +1,8 @@
 public class ProductIterator {
 
-	private ClassProductList classProductList;
+	public ClassProductList classProductList;
+
+
 
 
 	public boolean hasNext() {
@@ -18,5 +20,10 @@ public class ProductIterator {
 	public void Remove() {
 
 	}
+
+	public ClassProductList getClassProductList() {
+		return classProductList;
+	}
+
 
 }

@@ -2,13 +2,6 @@ public class ReminderVisitor extends NodeVisitor {
 
 	private Reminder m_Reminder;
 
-	public ReminderVisitor() {
-	}
-
-	public ReminderVisitor(Reminder reminder) {
-		m_Reminder = reminder;
-	}
-
 	private ClassProductList classProductList;
 
 	public void visitProduct(Product product) {
